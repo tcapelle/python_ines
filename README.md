@@ -7,9 +7,20 @@ Open the Anaconda Prompt (Windows) and execute:
 ```
 $conda create –name modelling python=3.7
 $conda activate modelling
-$conda install numpy pandas scikit-learn scipy seaborn matplotlib jupyterlab
+```
+You should have and active enviroment prompt like this:
+```
+(modelling) $
+```
+Then install the required dependencies with
+
+```
+(modelling) $conda install numpy pandas scikit-learn scipy seaborn matplotlib jupyterlab
 ```
 
 and clone this repository to your computer.
-`cd` to this repository and execute `jupyter lab`.
+`cd` to this repository and execute
+```
+$jupyter lab
+```
 
