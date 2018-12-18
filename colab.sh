@@ -9,6 +9,5 @@ mkdir -p /root/.fastai/data
 ln -s /root/.torch/models /content
 ln -s /root/.fastai/data /content
 rm -rf /content/sample_data/
-git clone https://github.com/fastai/course-v3
 
 pip install fastai --upgrade
