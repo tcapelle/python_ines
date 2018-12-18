@@ -14,5 +14,3 @@ if [ ! -d course-v3 ]; then
 fi
 
 pip install fastai --upgrade
-cd course-v3
-git pull
