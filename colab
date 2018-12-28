@@ -11,3 +11,4 @@ ln -s /root/.fastai/data /content
 rm -rf /content/sample_data/
 
 pip install fastai --upgrade
+pip install kaggle
