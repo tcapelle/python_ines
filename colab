@@ -1,5 +1,5 @@
 #!/bin/bash
-pip install pillow==4.1.1 --upgrade
+pip install pillow
 
 sed -n -e '/^tmpfs \/dev\/shm tmpfs defaults,size=/!p' -e '$atmpfs \/dev\/shm tmpfs defaults,size=1g 0 0' -i /etc/fstab
 mount -o remount /dev/shm
@@ -11,3 +11,4 @@ ln -s /root/.fastai/data /content
 rm -rf /content/sample_data/
 
 pip install fastai --upgrade
+pip install kaggle
